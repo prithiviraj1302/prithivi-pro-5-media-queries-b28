@@ -1,0 +1,264 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    background-image: url(IMAGES/VALENTINE.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+}
+.navbar img{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+button{
+    background-color:transparent;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 10px 25px;
+    cursor: pointer;
+    color: #f50e21;
+}
+.content{
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    translate:transform(-50%,-50%);
+    color: rgb(250, 3, 3);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Love{
+   margin-left: 120px;
+}
+.sidebar img
+{
+    width: 25px;
+}
+.sidebar{
+    background: linear-gradient(to right, red , #a11010);
+    height: 100%;
+    width: 40px;
+    right: 0;
+    top: 0;
+    position: absolute;
+    border-left: 4px solid rgb(237, 142, 142);
+}
+.social-links 
+{  
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    transform: translateY(-50%);
+}
+.usefull-links 
+{   
+    position: absolute;
+    left: 15%;
+    bottom: 20px;
+}
+.menu
+{   
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.hearts img{
+    width: 50px;
+    animation: heart 7s linear infinite;
+}
+.hearts {
+    position:absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+@keyframes heart  {
+    0%
+    {
+      opacity: 0;
+      transform: translatey(0);
+    }
+    25%
+    {
+      opacity: 1;
+    }
+    50%
+    {
+      opacity: 1;
+    }
+    75%
+    {
+      opacity: 1;
+    }
+    100%
+    {
+        opacity: 0;
+        transform: translateY(-90vh);
+    }
+    
+}
+.hearts img:nth-child(1)
+{
+animation-delay: 4s;
+width: 70px;
+height: 70px;
+}
+.hearts img:nth-child(2)
+{
+animation-delay: 1s;
+width: 40px;
+height: 40px;
+}
+.hearts img:nth-child(3)
+{
+animation-delay: 3.5s;
+width: 70px;
+height: 70px;
+}
+.hearts img:nth-child(4)
+{
+animation-delay: 5s;
+width: 50px;
+height: 50px;
+}
+.hearts img:nth-child(5)
+{
+animation-delay: 4s;
+
+}
+.hearts img:nth-child(6)
+{
+animation-delay: 2s;
+width: 60px;
+height: 60px;
+}
+@media screen and (max-width:450px)
+{
+    .content h1 
+    {
+        font-size: 20px;
+        color: rgb(249, 7, 7);
+    }
+    .content p 
+    {
+        color:  rgb(254, 4, 4);
+    }
+    .navbar img{
+        margin-top: 30px;
+        margin-left: 40px;
+        width: 50px;
+        height: auto;
+    }
+    button{
+        background-color:transparent;
+        border-radius: 10px;
+        border: 2px solid rgb(253, 7, 7);
+        padding: 10px 15px;
+        cursor: pointer;
+        color: rgb(239, 10, 10);
+    }
+    .head{
+        background-image: url(IMAGES/mob.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        position: relative;
+    }
+    .sidebar img
+    {
+        width: 25px;
+    }
+    .sidebar
+    {
+        background: linear-gradient(to right, hsl(0, 89%, 21%) , hsl(0, 96%, 46%));
+        width: 100%;
+        height: 50px;
+        top: auto;
+        bottom: 0;
+        position: absolute;
+        border-top: 4px solid rgb(223, 97, 97);  
+    }
+    .social-links 
+    {  
+       position: absolute;
+       margin-left: 80px;
+       margin-top: 10px;
+    }
+    .usefull-links
+    {
+        position: absolute;
+        margin-left: 300px;
+        top: 10%;
+    }   
+}
+@media screen and (min-width:451px) and (max-width:800px)  
+{
+    .head{
+        background-image: url(IMAGES/couple\ 1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        position: relative;
+    }
+    .content h1 
+    {
+        font-size: 20px;
+        color: rgb(1, 255, 242);
+    }
+    .content p 
+    {
+        color: rgb(1, 255, 242);
+    }
+    .navbar img{
+        margin-top: 30px;
+        margin-left: 40px;
+        width: 100px;
+        height: 120px;
+    }
+    button{
+        background-color:transparent;
+        border-radius: 10px;
+        border: 2px solid rgba(20, 131, 42, 0.998);
+        padding: 10px 15px;
+        cursor: pointer;
+        color: rgb(207, 243, 6);
+    }
+    .sidebar img
+    {
+        width: 25px;
+    }
+    .sidebar
+    {
+        background: linear-gradient(to right, hsl(120, 74%, 65%) , hsl(133, 49%, 68%));
+        width: 100%;
+        height: 50px;
+        top: auto;
+        bottom: 0;
+        position: absolute;
+        border-top: 4px solid rgb(155, 214, 230);  
+    }
+    .social-links 
+    {  
+       position: absolute;
+       margin-left: 150px;
+       margin-top: 10px;
+    }
+    .usefull-links
+    {
+        position: absolute;
+        margin-left: 500px;
+        top: 15px;
+    }
+}
